@@ -5,10 +5,17 @@ This project uses **Leaflet** and **D3.js** to create a dynamic, interactive map
 
 ---
 
-## Repository Structure
-Leaflet-Part-1/ ├── index.html # HTML file for the Part 1 map ├── style.css # CSS file for Part 1 └── logic.js # JavaScript logic for Part 1
+# Repository Structure
 
-Leaflet-Part-2/ ├── index.html # HTML file for the Part 2 map ├── style.css # CSS file for Part 2 └── logic.js # JavaScript logic for Part 2
+## Leaflet-Part-1/
+- `index.html` - HTML file for the Part 1 map
+- `style.css` - CSS file for Part 1
+- `logic.js` - JavaScript logic for Part 1
+
+## Leaflet-Part-2/
+- `index.html` - HTML file for the Part 2 map
+- `style.css` - CSS file for Part 2
+- `logic.js` - JavaScript logic for Part 2
 
 ---
 
