@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.info.legend i {
+  display: inline-block;
+  width: 18px;  /* Size of the color box */
+  height: 18px;
+  margin-right: 8px;  /* Spacing between color box and label */
+  border-radius: 3px;  /* Rounded corners for better appearance */
+}
+

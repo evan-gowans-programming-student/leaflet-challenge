@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body, #map {
+    height: 100%; /* Ensure the map takes up the full screen */
+  }
+  
+  /* Ensure full-page map */
+body, html, #map {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Use a clean font for the legend */
+}
+
+/* Legend styling */
+.info.legend {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px; /* Add spacing inside the legend box */
+  border-radius: 8px; /* Rounded corners for a sleek look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  line-height: 1.4; /* Improve line spacing */
+  font-size: 14px; /* Standard font size */
+  color: #333; /* Slightly softer black for text */
+}
+
+/* Legend color boxes */
+.info.legend i {
+  display: inline-block;
+  width: 18px; /* Size of the color square */
+  height: 18px;
+  margin-right: 8px; /* Space between square and label */
+  border-radius: 3px; /* Rounded edges for color squares */
+}
+
+/* Legend title */
+.info.legend h4 {
+  margin: 0 0 8px; /* Space between the title and the first label */
+  font-weight: bold; /* Emphasize title */
+  font-size: 16px; /* Slightly larger font for the title */
+}
